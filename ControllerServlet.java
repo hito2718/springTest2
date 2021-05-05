@@ -112,7 +112,7 @@ public class ControllerServlet {
 //
 //            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", // "jdbc:postgresql://[場所(Domain)]:[ポート番号]/[DB名]"
 //                    "pgadmin", // ログインロール
-//                    "core7777"); // パスワード
+//                    "XXXXXX"); // パスワード
 //            statement = connection.createStatement();
 //
 //            //-----------------
