@@ -22,3 +22,39 @@ messages.properties
 
 
 content.title=\u53C2\u7167\u30DA\u30FC\u30B8\u3067\u3059
+
+
+
+
+pox.xml
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+		  <groupId>org.postgresql</groupId>
+		  <artifactId>postgresql</artifactId>
+		  <scope>runtime</scope>
+		</dependency>
+		<dependency>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-devtools</artifactId>
+       </dependency>
+	</dependencies>
